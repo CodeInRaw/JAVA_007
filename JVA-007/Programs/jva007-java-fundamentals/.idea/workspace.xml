@@ -2,18 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6ead837b-2809-4090-acb7-38aa5c655e0a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/luxoft/jva007/ZoomExcercise/Interfaces/Flyer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/luxoft/jva007/ZoomExcercise/Interfaces/Swimmer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/luxoft/jva007/ZoomExcercise/Main/Main.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/luxoft/jva007/ZoomExcercise/Zoom/Fish.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/luxoft/jva007/ZoomExcercise/Zoom/Insect.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/luxoft/jva007/ZoomExcercise/Zoom/Zoom.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/com/luxoft/jva007/exercise08/TranspondMatrix.class" afterPath="$PROJECT_DIR$/bin/com/luxoft/jva007/exercise08/TranspondMatrix.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/luxoft/jva007/ZoomExcercise/Zoom/FishUseConstructor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/luxoft/jva007/ZoomExcercise/Zoom/InsectUseConstructor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/com/luxoft/jva007/ZoomExcercise/Main/Main.class" afterPath="$PROJECT_DIR$/bin/com/luxoft/jva007/ZoomExcercise/Main/Main.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/com/luxoft/jva007/ZoomExcercise/Zoom/Fish.class" afterPath="$PROJECT_DIR$/bin/com/luxoft/jva007/ZoomExcercise/Zoom/Fish.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/luxoft/jva007/GetterSetterExample.java" afterPath="$PROJECT_DIR$/src/com/luxoft/jva007/GetterSetterExample.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/luxoft/jva007/exercise08/TranspondMatrix.java" afterPath="$PROJECT_DIR$/src/com/luxoft/jva007/exercise08/TranspondMatrix.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/luxoft/jva007/ZoomExcercise/Main/Main.java" afterPath="$PROJECT_DIR$/src/com/luxoft/jva007/ZoomExcercise/Main/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/luxoft/jva007/ZoomExcercise/Zoom/Fish.java" afterPath="$PROJECT_DIR$/src/com/luxoft/jva007/ZoomExcercise/Zoom/Fish.java" />
     </list>
     <ignored path="jva007-java-fundamentals.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -36,11 +31,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/luxoft/jva007/ZoomExcercise/Main/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+            <state relative-caret-position="408">
+              <caret line="24" column="26" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -66,14 +61,37 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Fish.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Fish.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/luxoft/jva007/ZoomExcercise/Zoom/Fish.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
+            <state relative-caret-position="136">
+              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="9" selection-end-column="26" />
               <folding>
                 <element signature="e#626#627#0" expanded="true" />
                 <element signature="e#650#651#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="InsectUseConstructor.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/luxoft/jva007/ZoomExcercise/Zoom/InsectUseConstructor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FishUseConstructor.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/luxoft/jva007/ZoomExcercise/Zoom/FishUseConstructor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+              <folding>
+                <element signature="e#441#442#0" expanded="true" />
+                <element signature="e#465#466#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -94,8 +112,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -125,8 +143,10 @@
         <option value="$PROJECT_DIR$/src/com/luxoft/jva007/ZoomExcercise/Interfaces/Swimmer.java" />
         <option value="$PROJECT_DIR$/src/com/luxoft/jva007/ZoomExcercise/Interfaces/Flyer.java" />
         <option value="$PROJECT_DIR$/src/com/luxoft/jva007/ZoomExcercise/Zoom/Insect.java" />
-        <option value="$PROJECT_DIR$/src/com/luxoft/jva007/ZoomExcercise/Main/Main.java" />
         <option value="$PROJECT_DIR$/src/com/luxoft/jva007/ZoomExcercise/Zoom/Fish.java" />
+        <option value="$PROJECT_DIR$/src/com/luxoft/jva007/ZoomExcercise/Zoom/InsectUseConstructor.java" />
+        <option value="$PROJECT_DIR$/src/com/luxoft/jva007/ZoomExcercise/Zoom/FishUseConstructor.java" />
+        <option value="$PROJECT_DIR$/src/com/luxoft/jva007/ZoomExcercise/Main/Main.java" />
       </list>
     </option>
   </component>
@@ -847,7 +867,7 @@
       <updated>1487606424838</updated>
       <workItem from="1487606431764" duration="4608000" />
       <workItem from="1487690157086" duration="7531000" />
-      <workItem from="1487775666999" duration="9094000" />
+      <workItem from="1487775666999" duration="10186000" />
     </task>
     <task id="LOCAL-00001" summary="get and set">
       <created>1487776763367</created>
@@ -860,7 +880,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21233000" />
+    <option name="totallyTimeSpent" value="22325000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1176,14 +1196,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/luxoft/jva007/ZoomExcercise/Main/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/luxoft/jva007/ZoomExcercise/Zoom/Insect.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
@@ -1202,12 +1214,39 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/luxoft/jva007/ZoomExcercise/Zoom/Fish.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
+        <state relative-caret-position="136">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="9" selection-end-column="26" />
           <folding>
             <element signature="e#626#627#0" expanded="true" />
             <element signature="e#650#651#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/luxoft/jva007/ZoomExcercise/Zoom/InsectUseConstructor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/luxoft/jva007/ZoomExcercise/Zoom/FishUseConstructor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+          <folding>
+            <element signature="e#441#442#0" expanded="true" />
+            <element signature="e#465#466#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/luxoft/jva007/ZoomExcercise/Main/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="26" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
+          <folding />
         </state>
       </provider>
     </entry>

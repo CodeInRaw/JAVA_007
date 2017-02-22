@@ -19,5 +19,9 @@ public class Main {
         insect1.setNumberOfLegs(4);
         insect1.setNumberOfWings(2);
         insect1.fly(55, 3);
+
+        FishUseConstructor fishUseConstructor = new FishUseConstructor(true, true);
+        System.out.println(fishUseConstructor.getSeaFish());
+        System.out.println(fishUseConstructor.getBoned());
     }
 }

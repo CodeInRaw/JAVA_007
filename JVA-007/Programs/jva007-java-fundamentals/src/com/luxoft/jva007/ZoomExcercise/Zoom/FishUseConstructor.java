@@ -3,20 +3,16 @@ package com.luxoft.jva007.ZoomExcercise.Zoom;
 import com.luxoft.jva007.ZoomExcercise.Interfaces.Swimmer;
 
 /**
- * Created by Ihor Ruskykh on 2/22/2017.
+ * Created by ptcvas13 on 2/22/2017.
  */
-public class Fish extends Zoom implements Swimmer {
+public class FishUseConstructor extends Zoom implements Swimmer{
     private boolean seaFish;
     private boolean boned;
 
-   /*
-    @Override
-    public void swimm() {
-        System.out.println("******************Swimmer*****************");
-        System.out.println("My name is "+getName()+" and I can swimm!");
-        System.out.println("I have bones : "+getBoned());
-        System.out.println("I'm from the sea : "+getSeaFish());
-    }*/
+    public FishUseConstructor(boolean boned, boolean seaFish){
+        this.boned = boned;
+        this.seaFish = seaFish;
+    }
 
     @Override
     public void swimm(){
@@ -36,15 +32,9 @@ public class Fish extends Zoom implements Swimmer {
         return this.seaFish;
     }
 
-    public void setSeaFish(boolean seaFish){
-        this.seaFish = seaFish;
-    }
-
     public boolean getBoned(){
         return this.boned;
     }
 
-    public void setBoned(boolean boned){
-        this.boned = boned;
-    }
+
 }
