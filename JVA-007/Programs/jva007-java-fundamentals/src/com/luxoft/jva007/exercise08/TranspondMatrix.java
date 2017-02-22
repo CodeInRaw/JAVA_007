@@ -38,6 +38,7 @@ public class TranspondMatrix {
         return arr;
     }
 
+    //function for transpon matrix
     public static int[][] transpondMatrix(int[][] arr){
 
         for (int i = 0; i < arr.length; i++){
