@@ -23,5 +23,10 @@ public class Main {
         FishUseConstructor fishUseConstructor = new FishUseConstructor(true, true);
         System.out.println(fishUseConstructor.getSeaFish());
         System.out.println(fishUseConstructor.getBoned());
+
+        InsectUseConstructor insectUseConstructor = new InsectUseConstructor(2, 6);
+        System.out.println("wings : "+insectUseConstructor.getNumberOfWings());
+        System.out.println("legs  : "+insectUseConstructor.getNumberOfLegs());
+        System.out.println(new InsectUseConstructor().getNumberOfWings());
     }
 }

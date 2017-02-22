@@ -9,11 +9,6 @@ public class FishUseConstructor extends Zoom implements Swimmer{
     private boolean seaFish;
     private boolean boned;
 
-    public FishUseConstructor(boolean boned, boolean seaFish){
-        this.boned = boned;
-        this.seaFish = seaFish;
-    }
-
     @Override
     public void swimm(){
         swimm(5);
@@ -36,5 +31,12 @@ public class FishUseConstructor extends Zoom implements Swimmer{
         return this.boned;
     }
 
-
+    public FishUseConstructor(){
+        this.boned = true;
+        this.seaFish = true;
+    }
+    public FishUseConstructor(boolean boned, boolean seaFish){
+        this.boned = boned;
+        this.seaFish = seaFish;
+    }
 }
