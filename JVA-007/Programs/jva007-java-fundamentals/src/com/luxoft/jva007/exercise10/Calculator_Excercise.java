@@ -32,19 +32,24 @@ public class Calculator_Excercise {
         double result;
         double operand1 = 0;
         double operand2 = 0;
+        double operand3 = 0;
 
-        if (args.length != 3){
+        if (args.length != 5){
             System.out.println("Program should have 3 arguments");
             return;
         }
 
-        if (!checkNumber(args[0]) || !checkNumber(args[2])){
+        if (!checkNumber(args[0]) || !checkNumber(args[2]) || !checkNumber(args[4])){
             System.out.println("Input symbols (first and third) should be numbers");
             return;
         }
 
         operand1 = Double.parseDouble(args[0]);
         operand2 = Double.parseDouble(args[2]);
+        //operand3 = Double.parseDouble(args[4]);
+
+        //if (args[1].equals('*') && args[3].equals('*'))
+
 
         switch (args[1]){
             case "+" :
