@@ -13,7 +13,7 @@ public class LambdaExample {
             }
         });
         //lambda expression
-        doTriple((i) -> System.out.println("Hello lambda " + i + "!"));
+        doTriple(i -> System.out.println("Hello lambda " + i + "!"));
     }
 
     static void doTriple(ImplementSmth obj) {
